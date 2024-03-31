@@ -77,7 +77,7 @@ def Heart_Disease(values):
     if pred >= 0.5 :
         output = 'Heart Disease will stay more than 10 years'
     elif pred <= .51 :
-        output = 'You Heart is Healthy'
+        output = 'Your Heart is Healthy'
     
     return output
 
